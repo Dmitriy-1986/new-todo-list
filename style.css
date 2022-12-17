@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    border: 1px solid rgb(159, 159, 159);
+    min-height: calc(100vh - 16px);
+    background-color: white;
+}
+
+.one-form {
+    margin: 10px;
+}
+
+input[type="text"], 
+input[type="submit"] {
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+.paragraph {
+    padding: 10px;
+    margin: 20px;
+}
+
+@media (max-width: 650px) {
+    input[type="text"] {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+}
